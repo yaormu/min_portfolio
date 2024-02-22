@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/******************** Variables CSS ********************/
 :root {
+  /*
+    Tabla Modo de nuevos Colores
+    Modo color HSL(hue, saturación, luminosidad)
+    Blue: hsl(207, 90%, 61%)
+    Purple: hsl(250, 66%, 75%)
+    Pink: hsl(356, 66%, 75%)
+    Teal: hsl(174, 63%, 62%)
+  */
+
+  /* Aquí podemos cambiar los valores de acuerdo a los datos anteriores*/
   --hue: 207;
   --sat: 90%;
   --lig: 61%;
