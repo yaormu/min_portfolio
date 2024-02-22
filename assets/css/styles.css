@@ -45,6 +45,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  transition: 0.3s; /*Animación modo oscuro*/
 }
 
 h1,
@@ -435,3 +436,30 @@ Cambios de color en algunas partes del sitio web, que quedan con tema ligth
 ::-webkit-scrollbar-thumb:hover {
   background-color: hsl(var(--hue), 8%, 44%);
 }
+
+/************ Breakpoints *************/
+
+/*Dispositivos pequeños*/
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .profile__infor {
+    column-gap: 1.5rem;
+  }
+
+  .profile__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .skills__box {
+    column-gap: 1rem;
+  }
+}
+
+/*Dispositivos medianos*/
+
+/*Dispositivos grandes*/
